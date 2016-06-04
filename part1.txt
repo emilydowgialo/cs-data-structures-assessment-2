@@ -1,0 +1,48 @@
+Recursion
+
+1. Answer: In your own words, what is Recursion? (just kidding)
+Recursion is calling a function from within the same function. In order to make
+it stop calling itself, there must be a condition to make it stop, otherwise
+you get a stack overflow.
+
+2. If there is no base case it can be an infinite loop. There won't be a stopping
+condition.
+
+Graphs
+
+2. A graph is a data structure that contains nodes and edges. Graphs are like
+trees but contain loops, which makes them non-hierarchical.
+
+3. A social network would be good to model with a graph.
+
+Sorting
+
+1. Bubble sort compares each item to its adjacent item to the right and swaps 
+through them. The swapping moves from left
+to right and then goes back to the beginning and starts again at element 1
+and element 2 etc. It continues until all elements are in the right
+order. It is o(n^2).
+
+2. You start with one list and you recursively split it into little pieces of lists 
+containing 1 element. Then you merge the sublists. The lists have one element each.
+You merge one list with another list, creating a list of two elements. You repeat
+this for all elements until you have many lists of 2 elements. You then repeat
+this step, so you have many lists of 4 elements. You continue this recursive
+pattern until you end up with your sorted list. There is a merging strategy:
+you compare the first element in each list and move the element that is lowest
+to another list. Repeat this pattern until you have all elements of the two lists
+combined into one sorted list.
+
+3. Quick sort divides an array into two parts and recursively sorts the two halves. An element is assigned as a pivot, and elements are moved to the left of the pivot 
+if they are less than the pivot, and moved to the right if they are greater than the pivot. These steps are recursively applied to the the sub arrays until the elements are sorted.
+
+
+Git Branching
+
+1. Git branching would be used for keeping a branch with a version of the code
+that can be modified and edited without breaking the branch of code that is
+deployed.
+
+2. A pull request shows changes that have been made to a GitHub branch in a 
+repository. The project owner can then review the pull requests, ask
+questions, or merge them.
