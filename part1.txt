@@ -15,6 +15,30 @@ trees but contain loops, which makes them non-hierarchical.
 
 3. A social network would be good to model with a graph.
 
+Performance of Different Data Structures
+
+Python List (Array) Index: O(1) Search: O(n) Add-R: O(1) Add-L: O(n) Pop-L: O(n) Pop-R: O(1)
+
+Linked List Index: O(n) Search: O(n) Add-R: O(1)* Add-L: O(1) Pop-L: O(1) Pop-R: O(1)*
+*if you keep track of the tail, otherwise O(n)
+
+Doubly-Linked List Index: O(n) Search: O(n) Add-R: O(1) Add-L: O(1) Pop-L: O(1) Pop-R: O(1)
+
+Queue (as Array) Add-R: O(1) Pop-L: O(n)
+
+Queue (as LL or DLL) Add-R: O(n) Pop-L: O(1)
+
+Stack (as Array, LL, or DLL) Add-R: O(1) Pop-R: O(1)
+
+Deque (as DLL) Add-R: O(1) Add-L: O(1) Pop-L: O(1) Pop-R: O(1)
+
+
+Set (Hash Map) Get: O(1) Add: O(1) Delete: O(1) Iterate: O(n) Memory: medium
+
+Binary Search Tree Get: O(log n) Add: O(log n) Delete: O(log n) Iterate: O(log n) Memory: a lot
+
+Tree Get: O(n) Add: O(n) Delete: O(n) Iterate: O(n) Memory: a little
+
 Sorting
 
 1. Bubble sort compares each item to its adjacent item to the right and swaps 
